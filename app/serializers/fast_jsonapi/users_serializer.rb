@@ -8,6 +8,6 @@ class FastJsonapi::UsersSerializer < FastJsonapi::ApplicationSerializer
   attribute :name
 
   attribute :posts do |record|
-    PostsSerializer.new(record.posts).serialized_json
+    PostsSerializer.new(record.posts).serializable_hash
   end
 end
