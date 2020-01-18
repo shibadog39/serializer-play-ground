@@ -20,3 +20,11 @@ https://github.com/rails-api/active_model_serializers
 
 [こちらにあるように](https://github.com/rails-api/active_model_serializers#whats-happening-to-ams)、現在の安定バージョンである0.10.xのメンテナンスをほぼストップして、次のメジャーバージョンの開発に着手している。  
 Alternativesを提示しているくらいなので、これからスタートするプロジェクトでは採用するべきじゃないかもしれない
+
+
+# あとで試したいSerializer
+- [jsonapi-rb](http://jsonapi-rb.org/)
+  is a highly performant and modular JSON:API-only implementation. There's a vibrant community around it that has produced projects such as JSON:API Suite.
+  
+- [jsonapi-resources](https://github.com/cerebris/jsonapi-resources)
+  is a popular resource-focused framework for implementing JSON:API servers.
