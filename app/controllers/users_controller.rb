@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   def index
-    @users = User.all
-    render json: @users
+    users = User.all
+    render json: ::UsersSerializer.new(users).serialized_json
   end
 end
