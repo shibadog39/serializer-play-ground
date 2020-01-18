@@ -1,4 +1,4 @@
-class UsersSerializer < ApplicationSerializer
+class FastJsonapi::UsersSerializer < ApplicationSerializer
   include FastJsonapi::ObjectSerializer
 
   class PostsSerializer < ApplicationSerializer
