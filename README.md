@@ -1,24 +1,22 @@
-# README
+# 試したSerializer
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## fast_jsonapi
+A lightning fast JSON:API serializer for Ruby Objects.  
+https://github.com/Netflix/fast_jsonapi  
 
-Things you may want to cover:
+Json:API形式へ超高速でシリアライズできる  
+[ベンチマーク](https://github.com/fast-jsonapi/fast_jsonapi#benchmark-times-for-250-records)  
+  
+[このPRで試してみたように](https://github.com/shibadog39/serializer-play-ground/pull/2)、やろうとすれば無理やり別形式にカスタマイズすることもできる
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
+※[このissue](https://github.com/Netflix/fast_jsonapi/issues/433) によると、Netflix社のメンテが止まってしまっており[こちら](https://github.com/fast-jsonapi/fast_jsonapi)のforkedリポジトリでメンテしていこうという流れになっている(2020/1月現在)
 
-* Database creation
 
-* Database initialization
+## ActiveModel Serializer
+ActiveModel::Serializer implementation and Rails hooks  
+https://github.com/rails-api/active_model_serializers  
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[こちらにあるように](https://github.com/rails-api/active_model_serializers#whats-happening-to-ams)、現在の安定バージョンである0.10.xのメンテナンスをほぼストップして、次のメジャーバージョンの開発に着手している。  
+Alternativesを提示しているくらいなので、これからスタートするプロジェクトでは採用するべきじゃないかもしれない
