@@ -3,4 +3,8 @@ Rails.application.routes.draw do
   namespace :fast_jsonapi do
     resources :users, only: :index
   end
+
+  namespace :ams do
+    resources :users, only: :index
+  end
 end
