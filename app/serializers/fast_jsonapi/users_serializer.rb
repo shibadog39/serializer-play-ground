@@ -1,7 +1,7 @@
-class UsersSerializer < ApplicationSerializer
+class FastJsonapi::UsersSerializer < FastJsonapi::ApplicationSerializer
   include FastJsonapi::ObjectSerializer
 
-  class PostsSerializer < ApplicationSerializer
+  class PostsSerializer < FastJsonapi::ApplicationSerializer
     attributes :title, :content
   end
 
