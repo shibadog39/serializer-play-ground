@@ -23,6 +23,10 @@ Alternativesを提示しているくらいなので、これからスタート�
 
 
 # あとで試したいSerializer
+## jb
+https://github.com/amatsuda/jb
+A simple and fast JSON API template engine for Ruby on Rails
+
 ## jsonapi-rb
 http://jsonapi-rb.org/
 is a highly performant and modular JSON:API-only implementation. There's a vibrant community around it that has produced projects such as JSON:API Suite.
