@@ -24,8 +24,8 @@ Alternativesを提示しているくらいなので、これからスタート�
 
 # あとで試したいSerializer
 ## SimpleAMS
-https://github.com/vasilakisfil/SimpleAMS
-[こちら](https://vasilakisfil.social/blog/2020/01/20/modern-ruby-serializers/) に開発した経緯がまとまっている
+https://github.com/vasilakisfil/SimpleAMS  
+[こちら](https://vasilakisfil.social/blog/2020/01/20/modern-ruby-serializers/) に開発した経緯とか想いがまとまっている
 
 ## jb
 https://github.com/amatsuda/jb
