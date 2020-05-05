@@ -30,6 +30,8 @@ gem 'bootsnap', '>= 1.4.2', require: false
 
 gem 'active_model_serializers'
 gem 'fast_jsonapi', github: 'fast-jsonapi/fast_jsonapi'
+gem 'jb'
+gem 'benchmark-ips'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
