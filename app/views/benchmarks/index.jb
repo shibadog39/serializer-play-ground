@@ -1,0 +1,15 @@
+json = @users.map do |user|
+         user_json = {
+                       id: user.id,
+                       name: user.name
+                     }
+         user_json[:posts] = user.posts.map do |post|
+           {
+             id: post.id,
+             title: post.title,
+             content: post.content
+           }
+         end
+         user_json
+       end
+json

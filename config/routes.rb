@@ -7,4 +7,6 @@ Rails.application.routes.draw do
   namespace :ams do
     resources :users, only: :index
   end
+
+  resources :benchmarks, only: :index
 end

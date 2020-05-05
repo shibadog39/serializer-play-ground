@@ -9,5 +9,7 @@
 users = User.create([{ name: 'hoge' }, { name: 'huga' }])
 
 users.each do |user|
-  Post.create(user: user, title: '1st post', content: "hello world by #{user.name}")
+  (1..10000).each do |i|
+    Post.create(user: user, title: "title_#{i}", content: "content_#{i}")
+  end
 end
